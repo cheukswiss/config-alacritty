@@ -15,10 +15,9 @@ Current `alacritty.toml` settings:
 | general | `import` | `themes/campbell.toml` | Imported color theme |
 | window | `dimensions` | 180 cols × 52 lines | Initial window size |
 | terminal | `osc52` | `CopyPaste` | Allow clipboard read/write via OSC 52 escape sequences |
+| font | `normal` / `bold` / `italic` / `bold_italic` | `CaskaydiaCove Nerd Font Mono` | Monospace font with all four styles (Nerd Font, includes icon glyphs) |
 | font | `size` | `12` | Font size |
-| font | `normal` | `CaskaydiaCove NF` Regular | Monospace font (Nerd Font, includes icon glyphs) |
 | font | `offset` | `y = 2` | Line-spacing tweak |
-| selection | `save_to_clipboard` | `true` | Copy selected text to clipboard immediately |
 | scrolling | `history` | `10000` | Scrollback buffer lines |
 
 > To use the Windows WSL shell as the default in WSL, uncomment the `shell = "ubuntu.exe"` line under `[terminal]`.

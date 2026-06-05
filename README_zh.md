@@ -15,10 +15,9 @@
 | general | `import` | `themes/campbell.toml` | 引入的配色主题 |
 | window | `dimensions` | 180 列 × 52 行 | 启动窗口尺寸 |
 | terminal | `osc52` | `CopyPaste` | 允许通过 OSC 52 转义序列读写系统剪贴板 |
+| font | `normal` / `bold` / `italic` / `bold_italic` | `CaskaydiaCove Nerd Font Mono` | 等宽字体，含四种字形（Nerd Font，含图标字形） |
 | font | `size` | `12` | 字号 |
-| font | `normal` | `CaskaydiaCove NF` Regular | 等宽字体（Nerd Font，含图标字形） |
 | font | `offset` | `y = 2` | 行间距微调 |
-| selection | `save_to_clipboard` | `true` | 选中文本即写入剪贴板 |
 | scrolling | `history` | `10000` | 回滚缓冲行数 |
 
 > 在 WSL 中若想用 Windows 的 WSL 作为默认 shell，可取消 `[terminal]` 中 `shell = "ubuntu.exe"` 一行的注释。
