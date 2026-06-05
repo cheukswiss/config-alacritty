@@ -5,14 +5,14 @@ import = [ "themes/campbell.toml" ]
 dimensions = { columns = 180, lines = 52 }
 
 [terminal]
-# shell = "ubuntu.exe"  # Windows Subsystem for Linux
+shell = "ubuntu.exe"  # Windows Subsystem for Linux
 osc52 = "CopyPaste"
 
 [font]
-normal = { family = "CaskaydiaCove Nerd Font Mono", style = "Regular" }
-bold = { family = "CaskaydiaCove Nerd Font Mono", style = "Bold" }
-italic = { family = "CaskaydiaCove Nerd Font Mono", style = "Italic" }
-bold_italic = { family = "CaskaydiaCove Nerd Font Mono", style = "Bold Italic" }
+normal = { family = "CaskaydiaMono Nerd Font", style = "Regular" }
+bold = { family = "CaskaydiaMono Nerd Font", style = "Bold" }
+italic = { family = "CaskaydiaMono Nerd Font", style = "Italic" }
+bold_italic = { family = "CaskaydiaMono Nerd Font", style = "Bold Italic" }
 size = 12
 offset = { x = 0, y = 2 }
 
