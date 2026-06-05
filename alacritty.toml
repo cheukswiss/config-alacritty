@@ -1,0 +1,21 @@
+[general]
+import = [ "themes/campbell.toml" ]
+
+[window]
+dimensions = { columns = 180, lines = 52 }
+
+[terminal]
+# shell = "ubuntu.exe"  # Windows Subsystem for Linux
+osc52 = "CopyPaste"
+
+[font]
+size = 12
+normal = { family = "CaskaydiaCove NF", style = "Regular" }
+offset = { x = 0, y = 2 }
+
+[selection]
+save_to_clipboard = true
+
+[scrolling]
+history = 10000
+
