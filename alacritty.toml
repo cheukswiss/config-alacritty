@@ -3,6 +3,7 @@ import = [ "themes/campbell.toml" ]
 
 [window]
 dimensions = { columns = 180, lines = 52 }
+option_as_alt = "Both" # (macOS only)
 
 [terminal]
 shell = "ubuntu.exe"  # Windows Subsystem for Linux
